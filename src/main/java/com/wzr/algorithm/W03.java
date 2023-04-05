@@ -11,18 +11,20 @@ import org.junit.Test;
 public class W03 {
     @Test
     public void test() {
-        ListNode p6=new ListNode(6,null);
-        ListNode p5=new ListNode(5,p6);
-        ListNode p4=new ListNode(4,p5);
-        ListNode p3=new ListNode(3,p4);
-        ListNode p2=new ListNode(2,p3);
-        ListNode p1=new ListNode(1,p2);
-        p6.next =p5;
-        ListNode o1 = ListNode.of(1, 2, 2, 1);
-        ListNode o2 = ListNode.of(2, 9, 11);
-        ListNode o3 = ListNode.of(3, 5);
-        ListNode[] lists = {o1, o2, o3};
-        System.out.println(detectCycle(p1).val);
+//        ListNode p6=new ListNode(6,null);
+//        ListNode p5=new ListNode(5,p6);
+//        ListNode p4=new ListNode(4,p5);
+//        ListNode p3=new ListNode(3,p4);
+//        ListNode p2=new ListNode(2,p3);
+//        ListNode p1=new ListNode(1,p2);
+//        p6.next =p5;
+//        ListNode o1 = ListNode.of(1, 2, 2, 1);
+//        ListNode o2 = ListNode.of(2, 9, 11);
+//        ListNode o3 = ListNode.of(3, 5);
+//        ListNode[] lists = {o1, o2, o3};
+//        System.out.println(detectCycle(p1).val);
+        ListNode p= null;
+        System.out.println(p.next);
     }
 
     /**
