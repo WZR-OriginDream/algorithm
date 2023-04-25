@@ -27,6 +27,7 @@ public class W03 {
         System.out.println(p.next);
     }
 
+
     /**
      * 检测链表的回环入口
      * */
