@@ -8,13 +8,13 @@ import java.util.Iterator;
  * @Create:2023/4/25 - 20:46
  * @Version:v1.0
  */
-public class ArrayQueue<E> implements Queue<E>, Iterable<E> {
+public class ArrayQueue1<E> implements Queue<E>, Iterable<E> {
     private E[] array;
     private int head = 0;
     private int tail = 0;
     private int size = 0; //元素个数
 
-    public ArrayQueue(int capacity) {
+    public ArrayQueue1(int capacity) {
         array = (E[]) new Object[capacity + 1];
     }
 

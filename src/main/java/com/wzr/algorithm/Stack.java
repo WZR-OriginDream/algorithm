@@ -18,7 +18,7 @@ public interface Stack<E> {
     E pop();
 
     /**
-     * 返回栈顶元素，不弹出
+     *  返回栈顶元素，不弹出
      * */
     E peek();
 
