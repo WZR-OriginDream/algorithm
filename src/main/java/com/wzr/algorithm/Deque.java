@@ -9,10 +9,10 @@ package com.wzr.algorithm;
 public interface Deque<E> {
     boolean offerFirst(E e);
     boolean offerLast(E e);
-    E pollFirst();
-    E pollLast();
-    E peekFirst();
-    E peekLast();
+    E pollFirst(E e);
+    E pollLast(E e);
+    E peekFirst(E e);
+    E peekLast(E e);
     boolean isEmpty();
     boolean isFull();
 }
