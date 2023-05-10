@@ -45,7 +45,7 @@ public class LinkedListDeque<E> implements Deque<E>, Iterable {
     }
 
     @Override
-    public E pollFirst(E e) {
+    public E pollFirst() {
         if (isEmpty()) return null;
         Node<E> a = sentinel;
         Node<E> removed = sentinel.next;
@@ -57,7 +57,7 @@ public class LinkedListDeque<E> implements Deque<E>, Iterable {
     }
 
     @Override
-    public E pollLast(E e) {
+    public E pollLast() {
         if (isEmpty()) return null;
         Node<E> a = sentinel;
         Node<E> removed = sentinel.prev;
@@ -69,13 +69,13 @@ public class LinkedListDeque<E> implements Deque<E>, Iterable {
     }
 
     @Override
-    public E peekFirst(E e) {
+    public E peekFirst() {
         if (isEmpty()) return null;
         return sentinel.next.val;
     }
 
     @Override
-    public E peekLast(E e) {
+    public E peekLast() {
         if (isEmpty()) return null;
         return sentinel.prev.val;
     }
